@@ -1,0 +1,17 @@
+# Игнорирование папки node_modules
+node_modules/
+
+# Игнорирование папок с видео и скриншотами Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Игнорирование логов и других временных файлов
+*.log
+*.tmp
+
+# Игнорирование файлов системы (например, для macOS)
+.DS_Store
+
+# Игнорирование сгенерированных файлов
+coverage/
+.nyc_output/
